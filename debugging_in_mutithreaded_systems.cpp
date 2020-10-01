@@ -62,8 +62,8 @@ int main(int argc, char **argv)
     //pthread_join(t1[0], NULL);
     pthread_join(t2[0], NULL);
 
-    cout <<a<<" "<<b<<" "<< count;
-
+    //cout <<a<<" "<<b<<" "<< count;
+    printf("%d %d %d\n",a,b,count);
     free(t1);
     free(t2);
     return 0;
